@@ -35,6 +35,5 @@ class Student(db.Model):
 	db.Index('ix_user_post_user_id_insert_time', 'user_id', 'insert_time'),
     )
 ```
+# 测试用例
 
-
-# 测试
